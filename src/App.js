@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import C from "./components/C";
+import "./App.css"
 function App() {
+  const containerStyle = {
+    background: 'linear-gradient(to bottom, #ffffff, #fff9b1)', // Example gradient from white to red
+    padding: '20px', // Example padding
+    borderRadius: '8px' // Example border radius
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={containerStyle} >
+      <C />
     </div>
   );
 }

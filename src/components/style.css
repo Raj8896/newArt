@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  margin: 10px;
+  padding-top: 20px; 
+}
+
+.imageContainer img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.logo {
+  max-width: 80%; 
+}
+
+.certi {
+  max-width: 100%; 
+}
+
+.parts {
+  max-width: 100%; 
+}
+
+figcaption {
+  text-align: center; 
+}
+
+.info {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.info p {
+  margin-bottom: 10px; 
+}
+span{
+    color: #EC3237;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #EC3237;
+    margin: 20px 0;
+  }
+  footer {
+    background-color: #EC3237;
+    width: 100%;
+    height: 130px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer div {
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer div p {
+    padding-left: 10px;
+  }
+  
+  #svg{
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  @media (max-width: 768px) {
+    footer {
+      height: auto; 
+      padding: 20px 0; 
+    }
+  
+    footer div {
+      flex-basis: 50%; 
+      text-align: center; 
+    }
+    footer div p {
+        white-space: nowrap; 
+      }
+    
+      footer div p b {
+        display: inline-block; 
+      }
+  }
+  
